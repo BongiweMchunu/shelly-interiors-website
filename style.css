@@ -1,0 +1,507 @@
+body{
+  margin: 0;
+  font-family: 'book antiqua';
+  background-color: white;
+  color: #333;
+  overflow-x: hidden;
+}
+header {
+  background-color: white;
+  padding: 20px;
+  text-align: center;
+  font-family: 'book antiqua';
+}
+
+#header{
+  margin: 0%;
+  height: 0%;
+  background-color: aliceblue;
+  font-family:'book antiqua';
+  position:relative;
+  top: 73px;
+  left: 50%;
+  transform: translate(-50%, -30%);
+  text-align: center;
+  width: 100%;
+  max-width: 100%;
+  font-weight: bolder;
+  font-size: large;
+  z-index: 999;
+}
+
+.nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: black;
+  font-family: 'book antiqua';
+  font-weight: bold;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+.nav a:hover {
+  color: darkgrey
+}
+video {
+  max-width: 100%;
+  height: fit-content;
+  margin: 0;
+  display: block;
+  padding-top: 0%;
+}
+.video-container {
+  margin: 0;
+  padding: 0;
+}
+.projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  font-family: 'book antiqua';
+}
+.modern-home img,
+.cozy-home img,
+.luxury-home img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 8px; 
+}
+
+
+.project-item {
+  margin-bottom: 30px;
+}
+
+.project-title {
+  cursor: pointer;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.project-title img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.project-gallery {
+  display: block; 
+  text-align: center;
+  padding: 10px 0;
+}
+
+
+.project-gallery img {
+  width: 100%;
+  max-width: 300px;
+  margin: 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+footer {
+  background-color: white;
+  text-align: center;
+  padding: 30px;
+  font-size: 0.9rem;
+  color: grey;
+  font-family: 'book antiqua';
+}
+.Services {
+  
+  text-align: center;
+  margin-top: 0;
+  padding-top: 30px;
+  font-family: 'book antiqua';
+}
+
+.Services h2 {
+  font-size: large;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: black;
+  font-family: 'book antiqua';
+}
+
+.Services p {
+  font-size: 1rem;
+  color: black;
+  margin-top: 10px;
+  top: 0%;
+  text-align: center
+}
+
+h2 {
+  font-size: large;
+  font-family: 'book antiqua';
+  color: black;
+  text-align: center;
+  margin-top: 40px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  position: relative;
+}
+p {
+  font-size: medium;
+  text-decoration: dotted;
+  text-align: left;
+  position: relative;
+  top: 200px; 
+  margin-top: 0%;
+  padding: 0;
+  height: 100;
+  font-family:'book antiqua';
+  color: #333;
+  margin: 0 0 15px 0;
+  line-height: 1.6;
+  
+}
+
+  .img src {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+  }
+     
+  .contact-section {
+    background-color: #f9f9f9;
+    padding: 50px 20px;
+    color: #333;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .contact-container {
+    display: flex;
+    max-width: 1200px;
+    margin: auto;
+    gap: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .contact-form {
+    flex: 1 1 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .contact-form h2 {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-weight: bold;
+    color: #222;
+  }
+  
+  .contact-form label {
+    font-weight: 600;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: inherit;
+    font-size: 1rem;
+  }
+  
+  .contact-form textarea {
+    resize: vertical;
+  }
+  
+  .contact-form button {
+    background-color: #333;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contact-form button:hover {
+    background-color: #555;
+  }
+  
+  .contact-details {
+    flex: 1 1 300px;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #444;
+  }
+  
+  .contact-details h2 {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-weight: bold;
+    color: #222;
+  }
+  .contact-details p{
+    text-align: center;
+
+  }
+
+  .founder-container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: auto;
+    align-items: center;
+    gap: 30px;
+  }
+  .founder-text {
+    flex: 1 1 55%;
+    order: 1;
+  }
+  
+  .founder-image {
+    flex: 1 1 40%;
+    order: 2;
+  }
+  
+  .founder-image img {
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  }
+  
+  .founder-text h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    text-align: left;
+    font-family: 'book antiqua';
+  }
+  
+  .founder-text h3 {
+    font-weight: normal;
+    color: black;
+    margin-bottom: 10px;
+    text-align: left;
+    font-family: 'book antiqua';
+    font-weight: bold;
+
+  }
+  
+  .founder-text p {
+    font-size: 1.05em;
+    line-height: 1.6;
+    color: black;
+    margin: 0 0 15px 0;
+    position: static; 
+    text-decoration: none;
+    font-family: 'book antiqua';
+  }
+ 
+  .photo-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 10px;
+    padding: 20px;
+  }
+  
+  .photo-gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  .photo-gallery img:hover {
+    transform: scale(1.05);
+  }
+  
+  html {
+    scroll-behavior: smooth;
+    font-family: 'book antiqua';
+  }
+  
+  .dropdown {
+     position: relative;
+     display: inline-block;
+  }
+
+ .dropbtn {
+     font-weight: bold;
+     font-size: 16px;
+     color: black;
+     text-decoration: none;
+     padding: 10px 16px;
+     display: inline-block;
+}
+
+.dropdown-content {
+     display: none;
+     position: absolute;
+     background-color: white;
+     min-width: 180px;
+     box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+     z-index: 999;
+}
+
+.dropdown-content a {
+     color: black;
+     padding: 12px 16px;
+     text-decoration: none;
+     display: block;
+     font-size: 14px;
+}
+
+.dropdown-content a:hover {
+     background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+     display: block;
+}
+
+.project-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+}
+.project-item img:hover {
+  transform: scale(1.03);
+}
+h3 {
+  font-family: 'book antiqua';
+  color: black;
+}
+
+.back-link {
+  display: inline-block;
+  margin: 20px;
+  font-size: 18px;
+  text-decoration: none;
+  color: #333;
+  font-family: 'book aqua';
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
+
+.pre-footer {
+  background-color: #f9f9f9;
+  padding: 40px 20px;
+  border-top: 1px solid #ddd;
+}
+
+.pre-footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 30px;
+}
+
+.pre-footer-logo,
+.pre-footer-links,{
+  flex: 1 1 300px;
+  min-width: 200px;
+}
+ 
+
+.pre-footer-logo img {
+  width: 150px;
+  height: auto;
+}
+
+.pre-footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.pre-footer-links li {
+  margin-bottom: 10px;
+}
+
+.pre-footer-links a {
+  text-decoration: none;
+  color: #333;
+}
+
+.pre-footer-links a:hover {
+  text-decoration: underline;
+}
+
+.modern-home a,
+.cozy-home a,
+.luxury-home a{
+  color: black;
+  font-family: 'book antiqua';
+}
+
+.lightboxOverlay {
+  background: rgba(0, 0, 0, 0.9) !important;
+}
+
+.hero-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.project-intro {
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.project-intro h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.project-intro p {
+  font-size: 18px;
+  color: #555;
+  line-height: 1.6;
+}
+
+.project-gallery {
+  padding: 40px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.gallery-grid img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+}
+
+.back-link {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.back-link a {
+  font-size: 18px;
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.back-link a:hover {
+  color: #000;
+}
+
