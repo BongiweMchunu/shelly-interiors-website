@@ -506,13 +506,12 @@ h3 {
 }
 
 @media (max-width: 768px) {
-  .founder-section{
     padding: 10px;
     font-size: 16px;
     line-height: 1.5;
     width: 100%;
 
   }
-}
+
 
 
